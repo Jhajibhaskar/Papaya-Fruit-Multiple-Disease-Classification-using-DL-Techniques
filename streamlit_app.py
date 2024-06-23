@@ -6,7 +6,7 @@ from tensorflow import keras
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Load your trained model
-model = keras.models.load_model('model6.h5')
+model = keras.models.load_model('./model6.h5')
 
 # Data augmentation for prediction
 test_datagen = ImageDataGenerator(rescale=1./255)
