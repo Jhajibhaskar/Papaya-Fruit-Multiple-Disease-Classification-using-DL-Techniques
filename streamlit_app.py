@@ -43,4 +43,4 @@ if uploaded_file is not None:
     
     # Display the prediction
     st.write(f"Predicted class: {predicted_class}")
-    st.write(f"Confidence: {confidence:.2f}%")
+    st.write(f"Probability: {confidence:.2f}%")
