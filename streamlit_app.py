@@ -39,8 +39,6 @@ if uploaded_file is not None:
     # Make predictions
     predictions = model.predict(img)
     predicted_class = class_names[np.argmax(predictions)]
-    confidence = np.max(predictions) * 100
     
     # Display the prediction
     st.write(f"Predicted class: {predicted_class}")
-    st.write(f"Probability: {confidence:.2f}%")
