@@ -16,7 +16,7 @@ class_names = ['0.Healthy', '1.Anthracnose', '2.Phytophthora Blight', '3.Brown S
 
 # Streamlit UI
 st.title("Papaya Fruit Multiple Disease Classification using DL Techniques")
-st.write("This app can predict whether the papaya fruit in the image is Diseased or Healthy.")
+st.write("This app can predict the disease present in the papaya fruit")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
