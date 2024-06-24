@@ -21,10 +21,10 @@ Each category contains 650 images for training and 100 images for testing.
 ### 2. Model Selection and Evaluation:
 #### Initial Evaluation
 We initially developed a custom Convolutional Neural Network (CNN) architecture, which yielded:<br>
-Training Accuracy: 76.41%<br>
-Testing Accuracy: 60.33%
+➼Training Accuracy: 76.41%<br>
+➼Testing Accuracy: 60.33%
 
-➢We evaluated eight pre-trained models to determine the best architecture for our classification task:
+➢Recognizing the potential of pre-trained models, we experimented with eight established architectures for our classification task:
 1. AlexNet<br>
 2. DenseNet<br>
 3. EfficientNet<br>
@@ -34,8 +34,7 @@ Testing Accuracy: 60.33%
 7. ResNet<br>
 8. VGGNet<br>
 
-We evaluated eight pre-trained architectures including AlexNet, DenseNet, EfficientNet,
-InceptionNet, MobileNet, NASNet, ResNet, and VGGNet.
+We evaluated eight pre-trained architectures including AlexNet, DenseNet, EfficientNet, InceptionNet, MobileNet, NASNet, ResNet, and VGGNet.
 Based on initial evaluations, MobileNet emerged as the most promising model due to its superior performance.
 #### Pre-Trained Model Performance
 ![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Multiple-Disease-Classification-using-DL-Techniques/assets/84240276/c3a2b529-4691-4bb7-92c9-fc8a20c544f0)
@@ -47,14 +46,15 @@ MobileNet emerged as the most promising model. We fine-tuned the later layers of
 ![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Multiple-Disease-Classification-using-DL-Techniques/assets/84240276/f1ddb499-cce5-48ac-ba5f-d4845ad6bbd8)
 
 ### 6. Model Selection:
-➢Among the evaluated models, MobileNet initially showed promising results; however, our custom CNN, after fine-tuning, achieved the highest testing accuracy of 84.33%, making it the final choice for this project due to its superior performance.
+➢Among the evaluated pre-trained models, MobileNet initially showed promising results; however, after fine-tuning, our custom CNN achieved the highest testing accuracy of 84.33%, making it the final choice for this project due to its superior performance.
 ### 7. Deployment:
-➢Hosted the trained model on the web using Streamlit for easy access and to interact the users with the trained model.<br>
-➢Explore the deployed model interface here: https://jhajibhaskar4.streamlit.app/
+➢Hosted our fine-tuned CNN model on the web using Streamlit for easy access and to interact the users with the model.<br>
+➢Explore the deployed CNN model interface here: https://jhajibhaskar4.streamlit.app/
 ## Results
 Accuracy table showing the performance of each classifier with each segmentation technique, with a special focus on the highest performing combination.
-#### Accuracy table
-![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Binary-Disease-Detection-using-ML-Techniques/assets/84240276/4147caa5-983e-4232-8bf3-c21e16dbee21)
+#### Accuracy Graph - fine-tuned CNN
+![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Multiple-Disease-Classification-using-DL-Techniques/assets/84240276/1a4027c6-2168-4ae7-9f49-1b65d491ea0b)
+
 
 
 
