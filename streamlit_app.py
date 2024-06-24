@@ -41,4 +41,4 @@ if uploaded_file is not None:
     predicted_class = class_names[np.argmax(predictions)]
     
     # Display the prediction
-    st.write(f"Predicted class: {predicted_class}")
+    st.write(f"Predicted Disease: {predicted_class}")
