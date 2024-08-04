@@ -1,4 +1,4 @@
-# Papaya-Fruit-Multiple-Disease-Classification-using-Deep Learning-Techniques
+# Papaya-Fruit-Multi-Disease-Classification-using-Deep Learning-Techniques
 Papaya diseases can significantly impact crop yield and quality. Automated disease detection through image classification can aid farmers in early identification and management of these diseases.<br>
 This project focuses on classifying multiple diseases in papaya fruits using deep learning techniques. The goal is to distinguish between healthy and various diseased papayas to aid in early detection and management of papaya diseases. The dataset consists of images categorized into six classes: healthy, anthracnose, phytophthora blight, brown spot, black spot, and others.
 
