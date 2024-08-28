@@ -51,7 +51,7 @@ st.markdown(
         margin-top: 20px;
     }
     </style>
-    <div class="title">Papaya Fruit Multiple Disease Classification using DL Techniques</div>
+    <div class="title">Papaya Fruit Multiple Disease Classification using Deep Learning Techniques</div>
     """,
     unsafe_allow_html=True
 )
