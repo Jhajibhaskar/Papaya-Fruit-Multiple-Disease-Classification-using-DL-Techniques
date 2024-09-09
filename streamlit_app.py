@@ -6,7 +6,6 @@ from tensorflow import keras
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 st.image("https://iili.io/dj5iBHB.jpg", width=700)
-# Add a small caption below the image
 st.markdown(
     """
     <style>
@@ -22,13 +21,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Load your trained model
 model = keras.models.load_model('./model6.h5')
 
-# Data augmentation for prediction
 test_datagen = ImageDataGenerator(rescale=1./255)
 
-# Define class names (adjust based on your dataset)
 class_names = ['0.Healthy', '1.Anthracnose', '2.Phytophthora Blight', '3.Brown Spot', '4.Black Spot', '5.Others']
 
 # Streamlit UI
@@ -60,7 +56,7 @@ st.write("This app can predict the disease present in the papaya fruit")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
 if uploaded_file is not None:
-    # Convert the file to an opencv image.
+    # Convert file to an opencv image.
     file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
     opencv_image = cv2.imdecode(file_bytes, 1)
     
